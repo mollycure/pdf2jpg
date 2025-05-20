@@ -74,7 +74,6 @@ export default function Converter(){
             <h1>PDF to Image Converter</h1>
             <p>Select a PDF file to convert it to images.</p>
             <input type="file" name="pdfile" id="pdfile" onChange={handleFileChange}/>
-            <div class="cf-turnstile" data-sitekey="0x4AAAAAABeBS7qDO87TwXq0"></div>
             <button onClick={() => {saveForm(file)}}>Save</button>
         </div>
         
